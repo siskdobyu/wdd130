@@ -1,5 +1,13 @@
+:root {
+    --heading-background-color: darkblue;
+    --heading-text-color: black;
+    --heading-font: 'Tahoma', Georgia, Arial;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+
+}
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -10,13 +18,13 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-background-color);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -32,8 +40,8 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 1 / 0.3);
-    padding: 1rem;
+    border: var(--border);
+    padding: var(--padding);
     background-color: whitesmoke;
     color: black;
 }
