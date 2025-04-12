@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -13,48 +12,70 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
 </head>
-
 <body>
-    <header>
-        <div class="logo-box">
-            <img src="images/z-splash.png" alt="logo">
-        </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+    <header class="header">
+        <img src="images/z-splash.png" alt="splash-logo" class="splash-logo">
+        <nav class="navigation-links">
+            <ul class="navigation-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <div class="hero flex-container">
-            <img src="images/rafting58_600.jpg" alt="whitewater">
+            <img src="images/rafting58_600.jpg" alt="whitewater" class="whitewater">
             <h1>Splash Whitewater Rafting</h1>
-            <article>
-                <img src="images/rafting59_600_happy.jpg" alt="happy customers">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reprehenderit ut dignissimos,
-                    suscipit recusandae culpa amet assumenda unde repellat voluptas nobis maxime officia at. Unde
-                    ducimus cum eos id et?
-                </p>
-            </article>
+                <article class="happy-customers">
+                    <!-- <h3>Happy Customers</h3> -->
+                    <img src="images/rafting59_600_happy.jpg" alt="happy customers">
+                    <p class="happycustomers-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reprehenderit ut dignissimos,
+                        suscipit recusandae culpa amet assumenda unde repellat voluptas nobis maxime officia at. Unde
+                        ducimus cum eos id et?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex blanditiis, ab ea eius quis, debitis, soluta quasi doloribus quae veniam ipsa exercitationem obcaecati neque provident fuga voluptatem mollitia officia. Velit.
+                    </p>
+                </article>
         </div>
         <section>
             <h2>History</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut et tenetur rerum doloremque maiores facilis
-                optio, repellat id ipsam, aperiam aspernatur temporibus repudiandae, nam voluptatem. Et facilis ab
-                itaque quae.
-            </p>
+            <div class="history">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut et tenetur rerum doloremque maiores facilis
+                    optio, repellat id ipsam, aperiam aspernatur temporibus repudiandae, nam voluptatem. Et facilis ab
+                    itaque quae.
+                </p>
+                <img src="images/rafting1.webp" alt="rafting history image">
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum eligendi possimus fugiat explicabo sunt sapiente aspernatur distinctio, atque dolore iste itaque magni quisquam odio ratione aut labore qui minus assumenda!</p>
+            </div>
         </section>
         <section>
             <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting17_600.webp" alt="image1">
-            <img src="images/rafting47_600_2.webp" alt="image2">
-            <img src="images/rafting42_600_3.webp" alt="image3">
-            <img src="images/rafting22_600_4.webp" alt="image4">
-            <img src="images/rafting4_600_5.webp" alt="image5">
+            <div class="adventure">
+                <figure>
+                    <img src="images/rafting17_600.webp" alt="Rafting through rapid river">
+                    <figcaption>Rafting through rapid river</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting47_600_2.webp" alt="Group enjoying whitewater">
+                    <figcaption>Group enjoying whitewater</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting42_600_3.webp" alt="Teamwork in wild water">
+                    <figcaption>Teamwork in wild water</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting22_600_4.webp" alt="Adventurers in the splash zone">
+                    <figcaption>Adventurers in the splash zone</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting4_600_5.webp" alt="Exciting river bends">
+                    <figcaption>Exciting river bends</figcaption>
+                </figure>
+            </div>
         </section>
+        
 
     </main>
     <footer>

@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--text-font);
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: var(--secondary-color);
     color: var(--paragraph-text-color);
@@ -25,8 +25,8 @@ body {
 
 h1 {
     position: absolute;
-    top: 40px;
-    left: 33%;
+    top: 18%;
+    left: 35%;
     font-size: 2rem;
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -35,6 +35,10 @@ h1 {
 h2 {
     margin: 20px 0;
     font-family: var(--text-font);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
@@ -48,20 +52,19 @@ a {
     text-decoration: none;
 }
 
-
-.logo-box {
-    width: 150px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-
-}
-
 .hero {
     position: relative;
     padding: 1;
     display: flex;
-    flex-direction: wrap
+    flex-direction: wrap;
+    border: 2px solid var(--accent2-color);  
+    border-radius: 0;                      
+    background-color: #ffffff;                
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 5px;
+
+
+    
 }
 
 .hero img {
@@ -72,19 +75,19 @@ a {
 
 .hero article {
     position: absolute;
-    bottom: 20%;
+    bottom: 35%;
     left: 0px;
     background-color: rgba(0, 31, 84, 0.8);
     color: white;
     padding: 1rem;
-    max-width: 1200px;
+    max-width: 100%;
 
 }
 
 .hero article img {
     float: right;
     margin-left: 1rem;
-    max-width: 50%;
+    max-width: 20%;
     height: auto;
 }
 
@@ -93,3 +96,133 @@ a {
     height: auto;
     padding: 2px;
 }
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    gap: 10px;
+    border: 2px solid var(--accent2-color);  
+    border-radius: 0;                      
+    background-color: #ffffff;                
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    margin: 5px;   
+}
+
+
+.navigation-menu {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .navigation-menu li {
+    border-left: 1px solid #ccc;
+  }
+  
+  .navigation-menu li:first-child {
+    border-left: none;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex: 1 1 auto;
+  }
+  
+  .navigation-menu a {
+    display: block;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 100%;
+  }
+
+  .happy-customers {
+    display: flex;
+    flex-direction: row-reverse;    
+  }
+  
+  h1 {
+    display: grid;
+    grid-template-columns: max-content;
+
+  }
+
+  .whitewater {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    align-content: center;
+    
+   
+  }
+  
+  .history img {
+    justify-self: center;
+    align-self: center;
+    max-width: 100%;
+    height: auto
+  }
+
+  .adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 1rem;
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-items: center;
+    margin: 10px;
+  }
+
+    footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #0c576b;
+    color: white;
+    flex-wrap: wrap; 
+    }
+
+    footer p {
+        text-align: center;
+        flex: 1;
+    }
+    
+    footer .sociallinks {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+    }
+    
+    section {
+    border: 2px solid var(--accent2-color);  
+    border-radius: 0;                      
+    background-color: #ffffff;                
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 5px;
+    }
+
+    
+
+ 
