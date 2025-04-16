@@ -375,8 +375,21 @@ main {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       text-align: left;
+      padding: 20px;
       align-self:auto;
     }
+
+    section .purpose {
+      
+        width: 100%;
+        max-width: 100vw;
+             
+        border-radius: 0;                      
+        background-color: #ffffff;                
+        padding: 15px;
+        margin: 5px;
+        }
+    
 
    
 
