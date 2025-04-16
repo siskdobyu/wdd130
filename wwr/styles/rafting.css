@@ -371,6 +371,13 @@ main {
       
     }
 
+    .purpose-offerings {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      text-align: left;
+      align-self:auto;
+    }
+
    
 
     
