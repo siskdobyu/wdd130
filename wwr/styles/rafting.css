@@ -64,10 +64,7 @@ a {
     border-radius: 0;                      
     background-color: #ffffff;                
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    margin: 5px; 
-
-
-    
+    margin: 5px;     
 }
 
 .hero img {
@@ -117,7 +114,7 @@ a {
     margin: 5px;
        
 }
-main {
+.newsletter-trips, .purpose, .contact-section, .employee-profiles, .send-message {
   width: 100%;
   max-width: 100vw;
   box-sizing: border-box;
@@ -125,15 +122,10 @@ main {
   border-radius: 0;
   background-color: #ffffff;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  padding: 20px;
-  margin: 10px auto;
+  padding: 15px 25px;
+  margin: 5px;
 }
-.contact-section, section {
-  border: none;
-  box-shadow: none;
-  margin: 0;
-  padding: 10px 0;
-}
+
 
 .contact-section {
   display: flex;
@@ -141,6 +133,34 @@ main {
     justify-content: space-between;
     gap: 40px;
     flex-wrap: wrap;
+}
+
+.employee-profiles { 
+ 
+  text-align: center;
+}
+
+.team-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--accent1-color); /* Or whatever you'd like */
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.profile-grid figure {
+  margin: 0;
+}
+
+.profile-grid img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
 }
 
 
@@ -155,6 +175,7 @@ main {
     border: 1px solid #444;
     border-radius: 6px;
     overflow: hidden;
+    font-weight: bold;
   }
 
   .navigation-menu li {
@@ -282,23 +303,8 @@ main {
 
     }
 
-    .employees{
-      text-align: center;
-      
-    }
-
-    .employee-profiles {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      align-items: center;
-      gap: 1rem;
-      row-gap: 10px;
-      column-gap: 20px;
-      justify-items: center;
-      margin: 10px;
-      text-align: center;
-      
-    }
+    
+    
 
     .footer-wireframe {
       display: flex;
@@ -378,17 +384,19 @@ main {
       padding: 20px;
       align-self:auto;
     }
-
-    section .purpose {
+/* 
+    .purpose {
       
         width: 100%;
         max-width: 100vw;
-             
+        border-color: #ccc;     
         border-radius: 0;                      
         background-color: #ffffff;                
         padding: 15px;
         margin: 5px;
-        }
+        } */
+
+      
     
 
    
